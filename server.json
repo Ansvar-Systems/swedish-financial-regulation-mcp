@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.ansvar/swedish-financial-regulation-mcp",
+  "description": "Query Finansinspektionen FFFS regulations, promemorior on operational resilience, and enforcement actions",
+  "repository": {
+    "url": "https://github.com/Ansvar-Systems/swedish-financial-regulation-mcp",
+    "source": "github"
+  },
+  "homepage": "https://ansvar.eu",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finansinspektionen",
+    "fi",
+    "fffs",
+    "swedish-financial-regulation",
+    "compliance",
+    "enforcement",
+    "mcp",
+    "ansvar"
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/swedish-financial-regulation-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
