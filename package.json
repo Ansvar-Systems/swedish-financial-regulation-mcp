@@ -2,11 +2,11 @@
   "name": "@ansvar/swedish-financial-regulation-mcp",
   "version": "0.1.0",
   "mcpName": "eu.ansvar/swedish-financial-regulation-mcp",
-  "description": "Swedish financial regulation MCP server — Finansinspektionen FFFS regulations, promemorior on operational resilience, and enforcement actions",
+  "description": "Swedish financial regulation MCP server \u2014 Finansinspektionen FFFS regulations, promemorior on operational resilience, and enforcement actions",
   "type": "module",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "bin": {
-    "swedish-financial-regulation-mcp": "dist/src/index.js"
+    "swedish-financial-regulation-mcp": "dist/index.js"
   },
   "files": [
     "dist",
@@ -41,11 +41,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/http-server.ts",
-    "start": "node dist/src/http-server.js",
+    "start": "node dist/http-server.js",
     "seed": "npx tsx scripts/seed-sample.ts",
-    "ingest": "npx tsx scripts/ingest-fi.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test:contract": "echo \"No contract tests yet\" && exit 0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",
